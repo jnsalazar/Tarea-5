@@ -1,0 +1,71 @@
+\documentclass[letterpaper,11pt]{article} 
+\usepackage{amsmath} 
+\usepackage{graphicx}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage[mathlines]{lineno}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{siunitx}
+\graphicspath{ {images/} } 
+
+\usepackage{ragged2e}
+\newenvironment{Figure}
+
+
+\usepackage{multicol,caption}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\decimalpoint
+\usepackage{authblk}
+\usepackage[margin=1in,letterpaper]{geometry} % this shaves off default margins which are too big
+\usepackage{cite}
+
+\usepackage[final]{hyperref} % adds hyper links inside the generated pdf file
+\usepackage[]{units}
+\usepackage{float}
+\hypersetup{
+	colorlinks=true,       % false: boxed links; true: colored links
+	linkcolor=blue,          % color of internal links
+	citecolor=blue,        % color of links to bibliography
+	filecolor=magenta,      % color of file links
+	urlcolor=blue         
+}  
+\usepackage[margin=1in,letterpaper]{geometry}
+
+
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{Métodos Computacionales}
+
+\begin{document}
+
+\DeclareGraphicsExtensions{.png, .jpg, .pdf, .tiff}
+
+\title{\textbf{Resultados}}
+
+\author[]{\textbf{Juan Nicolás Salazar}}
+\affil[]{Departamento de Física, Universidad de los Andes}
+\date{3 de Diciembre de 2017}
+
+
+
+
+\maketitle
+ \noindent
+A continuación se presenta la gráfica del ajuste de los datos por estimación bayesiana de las masas en la fórmula de la velocidad de rotación en una galaxia.
+
+\section{Cuerda}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{curva_ajuste}
+    \captionof{figure}{Fit de la curva de rotación de una galaxia}
+    \label{f1}
+\end{figure}
+
+
+
+\end{document}
